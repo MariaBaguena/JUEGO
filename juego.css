@@ -1,0 +1,146 @@
+
+
+
+body{
+	margin: 10px;
+	padding: 10px;
+	background-color: seashell;
+	text-align: center;
+}
+
+
+
+h2 {
+
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+
+
+}
+
+h3 {
+
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.85em;
+	
+}
+
+
+
+
+#caja{
+
+	
+	display: flex;
+
+	float:right;
+	background-color: blanchedalmond;
+	width:100%;
+	height: 100%;
+	margin-top: 20px;
+	flex-direction: column;
+	border: 1px black solid;
+	border: 1px solid rgb(204,204,204);
+	border-radius: 3px 3px 3px 3px;
+	-webkit-box-shadow: 6px 5px 8px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 6px 5px 8px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 6px 5px 8px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+
+.palabras{
+	font-size: 1em;
+	font-family: lato light;
+	margin-top: 5px;
+}
+
+
+#items{
+
+	padding: 30px;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	background-color: blanchedalmond;
+	width:70%;
+	height: 100%;
+	margin-left: 50px;
+	border: 1px black solid;
+	border: 1px solid rgb(204,204,204);
+	-webkit-box-shadow: 6px 5px 8px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 6px 5px 8px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.fruta{
+
+	border: 1px black;
+	margin-bottom: 80px;
+	margin-top: 80px;
+
+}
+
+
+
+/*responsive: tamaño móvil*/
+@media all and (max-width: 480px) {
+
+	#caja{
+		font-size: 1em;
+		padding:100px;
+		width: 100px;
+	}
+	#contenedor{
+
+		width: 100%;
+    	display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+
+
+}
+
+/*responsive: tamaño tablet*/
+@media all and (min-width: 481px), (max-width: 980px) {
+
+	#caja{
+		font-size: 1em;
+		padding:100px;
+		width: 100px;
+	}
+	#contenedor{
+
+		width: 100%;
+    	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+}
+
+/*responsive: tamaño ordenador*/
+@media all and (min-width: 981px) {
+
+	#caja{
+		font-size: 1em;
+		padding:100px;
+		width: 100px;
+	}
+
+	#contenedor{
+
+		width: 100%;
+    	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+}
+
